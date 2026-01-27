@@ -1,0 +1,22 @@
++---------------+----------+
+| license_plate | activity |
++---------------+----------+
+| N7M42GP       | entrance |
+| Y340743       | entrance |
+| 5P2BI95       | exit     |
+| 94KL13X       | exit     |
+| 6P58WS2       | exit     |
+| 4328GD8       | exit     |
+| G412CB7       | exit     |
+| L93JTIZ       | exit     |
+| 322W7JE       | exit     |
+| 0NTHK55       | exit     |
+| P14PE2Q       | entrance |
+| 1M92998       | entrance |
+| 11J91FW       | exit     |
+| PF37ZVK       | exit     |
+| 1M92998       | exit     |
+| XE95071       | exit     |
+| IH61GO8       | exit     |
+| 8P9NEU9       | exit     |
++---------------+----------+

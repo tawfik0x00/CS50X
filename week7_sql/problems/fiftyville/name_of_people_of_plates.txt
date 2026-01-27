@@ -1,0 +1,12 @@
++---------+
+|  name   |
++---------+
+| Vanessa |
+| Bruce   |
+| Barry   |
+| Luca    |
+| Sofia   |
+| Iman    |
+| Diana   |
+| Kelsey  |
++---------+

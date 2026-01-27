@@ -1,0 +1,10 @@
+1. Characterizing the Audio Aura:
+The listener's audio aura can be characterized by calculating the average energy, valence, and danceability of their top 100 songs from 2018. The two highest averages dictate the aura's mood descriptors. For example, if energy and valence are the highest, the aura might be "Energetic & Joyful."
+
+2. Limitations of the Calculation:
+Averaging these values may not accurately represent the listener's true preferences or mood due to the lack of temporal variation consideration, potential genre influence, and the context in which songs were played.
+
+3. Proposed Improvements:
+- Use weighted averages to account for play count or recency.
+- Implement cluster analysis to create multiple aura representations based on different clusters of songs.
+- Consider a temporal analysis to reflect changes in mood or preference over time.
