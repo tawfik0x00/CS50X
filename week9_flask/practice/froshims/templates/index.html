@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <h1> Register</h1>
+    <form action="/register" method="post">
+        <input autocomplete="off" autofocus placeholder="Name" name="name" type="text">
+            <!-- Jinja loop to automatic full the list-->
+        {% for sport in sports %}
+           <p><input type="checkbox" name="sport" value="{{sport}}">{{sport}}</p>
+        {% endfor %}
+        <button type="submit">Register</button>
+    </form>
+{% endblock %}
