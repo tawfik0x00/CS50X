@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<!-- Demonstrates layout with Bootstrap -->
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <title>search</title>
+    </head>
+    <body>
+
+        <div class="container-fluid">
+
+            <ul class="m-3 nav">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="https://about.google/">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="https://store.google.com/">Store</a>
+                </li>
+                <li class="nav-item ms-auto">
+                    <a class="nav-link text-dark" href="https://www.google.com/gmail/">Gmail</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="https://www.google.com/imghp">Images</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="https://www.google.com/intl/en/about/products">
+                        
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-primary" href="https://accounts.google.com/ServiceLogin" role="button">Sign in</a>
+                </li>
+            </ul>
+
+            <div class="text-center">
+
+                <!-- https://knowyourmeme.com/memes/happy-cat -->
+                <img alt="Happy Cat" class="img-fluid w-25" src="cat.gif">
+
+                <form action="https://www.google.com/search" class="mt-4" method="get">
+                    <input autocomplete="off" autofocus class="form-control form-control-lg mb-4 mx-auto w-50" name="q" placeholder="Query" type="search">
+                    <button class="btn btn-light">Google Search</button>
+                    <button class="btn btn-light" name="btnI">I'm Feeling Lucky</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>

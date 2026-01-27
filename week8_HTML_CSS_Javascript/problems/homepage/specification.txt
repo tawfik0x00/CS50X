@@ -1,0 +1,45 @@
+CS50x Homepage Project — Mohamed Tawfik Islam Soliman
+
+HTML TAGS USED (10+)
+
+1. <html> – Defines the structure of each webpage.
+2. <head> – Contains metadata, CSS, and JS links.
+3. <body> – Contains all visible content on each page.
+4. <header> – Used for the top section with title and navigation.
+5. <nav> – Contains the website navigation menu.
+6. <ul> and <li> – Used for navigation links and unordered lists.
+7. <main> – Wraps the main content of each page.
+8. <section> – Groups related content like course or skill details.
+9. <img> – Displays my profile image.
+10. <footer> – Displays copyright and live clock.
+11. <a> – Used for internal navigation and external links (email, GitHub, LinkedIn).
+12. <button> – Used for the Dark Mode toggle button.
+13. <p>, <h1>, <h2> – Used for text, headings, and organization.
+
+
+CSS PROPERTIES USED (5+)
+
+1. background-color – Sets background color of body, header, and footer.
+2. color – Defines text color throughout the site.
+3. font-family – Changes the overall typography to “Poppins”.
+4. border-radius – Rounds image corners and cards for a modern look.
+5. box-shadow – Adds depth and soft shadows to cards and sections.
+6. display & flex-direction – Used for layout alignment and footer positioning.
+7. transition – Smooth animation on hover and theme toggle.
+8. text-align – Centers content and text for better readability.
+9. gap – Adds spacing between navigation links.
+10. padding & margin – Controls spacing inside and around elements.
+
+
+JAVASCRIPT DESCRIPTION
+
+I used JavaScript to add interactivity with three features:
+(1) a Dark Mode toggle button that switches the website theme and saves user preference in localStorage,
+(2) a one-time welcome alert for first-time visitors, and
+(3) a live digital clock in the footer that updates every second.
+
+
+BOOTSTRAP DESCRIPTION
+
+I integrated Bootstrap 5 via CDN to improve responsiveness and appearance of my website,
+using its default button styling, card layout, and spacing utilities for a clean, professional design.

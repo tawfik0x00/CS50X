@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale">
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <title>search</title>
+        <script>
+            function greet(){
+                alert("Hello, " + document.getElementById("name").value);
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="text-center mt-5">
+                <form onsubmit="greet(); return false;">
+                    <input class="form-control form-control-lg mx-auto mb-3 w-50" autocomplete="off" autofocus id="name" placeholder="Name" type="text">
+                    <button class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

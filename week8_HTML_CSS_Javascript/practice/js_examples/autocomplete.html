@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>autocomplete</title>
+    </head>
+
+    <body>
+
+        <input id="input" autocomplete="off" autofocus placeholder="Query" type="text">
+
+        <!--To insert to the ul-->
+        <ul></ul>
+
+        <script>
+            const WORDS = [
+                'apple', 
+                'banana', 
+                'cherry', 
+                'date', 
+                'elderberry', 
+                'fig', 
+                'grape', 
+                'honeydew'
+            ];
+            
+            // select the object to work with
+            let input = document.querySelector("#input");
+            // addEventListener(event, function to word when even is done)
+            input.addEventListener('keyup', function(event){
+                let html = '';
+                if (input.value){
+                    for (word of WORDS){
+                        if (word.startsWith(input.value)){
+                            html += `<li>${word}</li>`;
+                        }
+                    }
+                }
+                document.querySelector('ul').innerHTML = html;
+            });
+        </script>
+
+    </body>
+</html>
